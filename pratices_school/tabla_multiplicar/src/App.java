@@ -1,26 +1,36 @@
 public class App {
     public static void main(String[] args) {
         System.out.println("primeros 25 numeros");
+        System.out.println("-------------------------------------------------------------------------");
 
-        for (int i = 0; i <= 25; i++) {
-            System.out.print(i);
+        System.out.print("1");
+
+        for (int i = 2; i <= 25; i++) {
+            System.out.print("," + i);
         }
 
-        System.err.println(" ");
+        System.out.println("");
+        System.out.println("--------------------------------------------------------------------------");
 
-        for (int i = 0; i <= 50; i += 2) {
-            System.out.print(i);
+        System.out.print("2");
+
+        for (int i = 4; i <= 50; i += 2) {
+            System.out.print("," + i);
         }
 
-        System.err.println(" ");
+        System.out.println("");
+        System.out.println("---------------------------------------------------------------------------");
 
-        for (int i = 1; i <= 49; i += 2) {
-            System.out.print(i);
+        System.out.print("1");
+
+        for (int i = 3; i <= 49; i += 2) {
+            System.out.print("," + i);
         }
+
+        System.out.println("");
+        System.out.println("---------------------------------------------------------------------------");
 
         // metodo 1
-
-        System.err.println(" ");
         // // tabla de multiplicar del 1
 
         // System.out.println("Tabla del 1");
@@ -98,15 +108,21 @@ public class App {
         // }
 
         // metodo 2
+        // System.out.println("");
+        // System.out.println("tablas de multiplicar");
+        // System.out.println("---------");
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println("tabla de multiplicar de " + i);
+        // for (int i = 1; i <= 10; i++) {
+        // System.out.println("tabla de multiplicar de " + i);
+        // System.out.println("---------------");
 
-            for (int j = 0; j <= 10; j++) {
-                System.out.println(i + "*" + j + "=" + i * j);
-            }
-            System.out.println("---------------");
-        }
+        // for (int j = 0; j <= 10; j++) {
+        // System.out.println(i + "*" + j + "=" + i * j);
+        // }
+        // System.out.println("---------------");
+        // }
+
+        // metodo 3
     }
 
 }
