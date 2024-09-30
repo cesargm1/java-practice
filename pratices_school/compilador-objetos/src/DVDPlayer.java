@@ -52,3 +52,38 @@
 // }
 // }
 // }
+
+/**
+ * TapeDeck
+ */
+
+class DVDPlayer {
+
+    boolean canRecord = false;
+    boolean playDVD = true;
+
+    void recordDVD() {
+        System.out.println("DVD recordimg");
+    }
+
+    void playDVD() {
+        System.out.println("DVD playing");
+    } // FALTA el metodo playDVD
+}
+
+class DVDPlayerTestDrive {
+    public static void main(String[] args) {
+
+        DVDPlayer d = new DVDPlayer();
+        d.canRecord = true;
+
+        d.playDVD();
+
+        if (d.canRecord == true) {
+            d.recordDVD();
+        }
+        {
+
+        }
+    }
+}
